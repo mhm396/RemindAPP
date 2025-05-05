@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondologin2"
+        android:scaleType="centerCrop" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#99000000"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleX=".6"
+            android:scaleY=".6"/>
+
+        <LinearLayout
+            android:id="@+id/layoutEditTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+
+            <EditText
+                android:id="@+id/editTextUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="@string/et_User_Registro"
+                android:textColorHint="#fff"
+                android:padding="10dp"
+                android:background="@drawable/inputxt"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:maxLength="15"/>
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:hint="@string/et_Email_Registro"
+                android:textColorHint="#fff"
+                android:textAlignment="center"
+                android:background="@drawable/inputxt"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:padding="10dp"
+                android:textColorHint="#fff"
+                android:hint="@string/et_Passw_Registro"
+                android:background="@drawable/inputxt"
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                android:inputType="textPassword"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutEditTexts"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/buttonAceptar"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:text="@string/btn_Registrar"
+                android:background="@drawable/shape_boton_blanco"
+                />
+
+            <Button
+                android:id="@+id/buttonIniciarSesion"
+                android:layout_gravity="center"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/btn_yaCuenta"
+                android:background="@drawable/shape_boton_cuenta"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

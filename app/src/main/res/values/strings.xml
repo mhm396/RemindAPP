@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">REMIND</string>
+
+    <!--RECORDATORIOS-->
+    <string name="changed_to">Notificación cambiada a las %s</string>
+    <string name="time_selected_is">La hora seleccionada es:</string>
+    <string name="change_time">Cambia la hora</string>
+    <string name="select_time">Selecciona la hora</string>
+    <string name="new_notification">Recordatorio</string>
+
+    <string name="tv_Date">Date and Time</string>
+    <string name="tv_mensaje">Message</string>
+    <string name="btn_Fecha">DATE</string>
+    <string name="btn_Add">ADD</string>
+    <string name="tv_NoMessage">REMINDER</string>
+
+    <!--NOTAS-->
+    <string name="titulo_nota">Title</string>
+    <string name="desc_nota">Description</string>
+    <string name="prioridad_nota">Priority</string>
+    <string name="emailDestin_nota">Recipient Email</string>
+    <string name="modificar_nota">Update</string>
+    <string name="add_nota">Add</string>
+
+
+    <!--TITULOS TOOLBAR-->
+    <string name="titulo_Main">REMIND</string>
+    <string name="titulo_Prestamos">LOANS</string>
+    <string name="titulo_Recordatorios">REMINDERS</string>
+    <string name="titulo_Notas">NOTES</string>
+
+    <!--BTNNAVIGATION VIEW-->
+    <string name="btn_Inicio">Home</string>
+    <string name="btn_Prestamos">Loans</string>
+    <string name="btn_Recordatorios">Reminders</string>
+    <string name="btn_Notas">Notes</string>
+
+    <!--EDITEXT DEL REGISTRO Y LOGIN-->
+    <string name="et_User_Registro">User</string>
+    <string name="et_Email_Registro">Email</string>
+    <string name="et_Passw_Registro">Password</string>
+    <string name="btn_Registrar">REGISTER</string>
+    <string name="btn_Login">LOGIN</string>
+    <string name="btn_yaCuenta">I HAVE AN ACCOUNT</string>
+    <string name="btn_cerrarSesion">SIGN OFF</string>
+
+    <!--TOASTS-->
+    <string name="toast_Delete">Item successfully deleted</string>
+    <string name="toast_CamposVacios">EMPTY FIELDS</string>
+    <string name="toast_TituloVacios">Enter a title</string>
+    <string name="toast_EmptyDate">Enter a date</string>
+    <string name="toast_InvalidDate">Invalid time</string>
+    <string name="toast_ReminderActivo">Inserted Successfully</string>
+    <string name="toast_ReminderFinished">Reminder finished</string>
+    <string name="toast_introducirDatos">Fill fields</string>
+    <string name="toast_passwCaracter">Password must be 6 characters at least</string>
+    <string name="toast_loginFailed">Login failed. Please try again</string>
+    <string name="toast_invalidData">Invalid data</string>
+
+
+</resources>

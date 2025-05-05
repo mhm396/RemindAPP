@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:iconTint="@color/colorAccent"
+
+        android:title="@string/btn_Inicio"/>
+
+    <item
+        android:id="@+id/navigation_notes1"
+        android:icon="@drawable/ic_transfer"
+        android:title="@string/btn_Prestamos"/>
+
+    <item
+        android:id="@+id/navigation_reminder"
+       android:icon="@drawable/ic_reminder"
+        android:title="@string/btn_Recordatorios"/>
+
+    <item
+        android:id="@+id/navigation_notes2"
+        android:icon="@drawable/ic_notes"
+        android:title="@string/btn_Notas"/>
+
+</menu>
